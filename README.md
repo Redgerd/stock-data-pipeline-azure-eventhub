@@ -107,12 +107,6 @@ This project uses `dlt` to define the data pipeline within the `stock-data-pipel
 
 ## Screenshots
 
-### Databricks Job Runs
-
-![WhatsApp Image 2025-05-15 at 21 58 03_e9c9b24b](https://github.com/user-attachments/assets/9341778d-44c5-48f7-8ca8-9ebf12a8e017)
-
-*This image shows the Databricks job execution history, including the "retrieve-stock-data" and "Process_stock_daya" tasks.*
-
 ### Bronze Layer Data
 
 ![WhatsApp Image 2025-05-11 at 00 09 22_5459ea8c](https://github.com/user-attachments/assets/1ec24f51-5340-4f53-8172-aaf28275b727)
