@@ -86,13 +86,13 @@ The data pipeline follows this architecture:
 
     * *Before* executing the `stock-data-pipeline-azure-eventhub.ipynb` notebook, you *must* start the Kafka producer.
 
-    * Execute the `kafka/Kafka(Producer).ipynb` notebook to simulate sending stock data to the Kafka topic. You will need to configure the Kafka producer with the appropriate settings (Kafka broker address, topic name). This can be done from your local machine or within Databricks if you set up a job.  *This producer must be running for the pipeline to receive data.*
+    * Execute the `Kafka(Producer).ipynb` notebook to simulate sending stock data to the Kafka topic. You will need to configure the Kafka producer with the appropriate settings (Kafka broker address, topic name). This can be done from your local machine or within Databricks if you set up a job.  *This producer must be running for the pipeline to receive data.*
 
     * Once the producer is running, execute the `stock-data-pipeline-azure-eventhub.ipynb` notebook cells in Databricks to start the streaming pipeline. The data will be ingested, processed, and stored in Delta Lake.
 
 3.  **Consume data from Kafka:**
 
-    * Run the `kafka/Kafka(Consumer).ipynb` notebook to read data from the Kafka topic. You will need to configure the Kafka consumer with the appropriate settings (Kafka broker address, topic name, consumer group). This can be done from your local machine or within Databricks.
+    * Run the `Kafka(Consumer).ipynb` notebook to read data from the Kafka topic. You will need to configure the Kafka consumer with the appropriate settings (Kafka broker address, topic name, consumer group). This can be done from your local machine or within Databricks.
 
 4.  **Query the data:**
 
