@@ -12,10 +12,7 @@ This project implements a real-time data pipeline to ingest, process, and analyz
     * **Bronze Layer:** Stores raw data as is.
     * **Silver Layer:** Stores cleansed and transformed data.
     * **Gold Layer:** Stores aggregated data for reporting and analysis.
-* **Scalable Storage:** Uses Delta Lake for reliable and scalable data storage.
 * **Data Quality:** Ensures data quality through filtering and validation steps.
-* **Modular Design:** Uses `dlt` for a modular and maintainable pipeline structure.
-* **Azure Databricks Optimized:** Designed to run efficiently on Azure Databricks.
 * **Kafka Integration:** Includes producer (essential for data input) and consumer scripts for interacting with the Kafka stream.
 
 ## Architecture
