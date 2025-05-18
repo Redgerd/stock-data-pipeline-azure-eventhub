@@ -135,11 +135,3 @@ This project uses `dlt` to define the data pipeline within the `stock-data-pipel
 
 ![image](https://github.com/user-attachments/assets/185b14fc-9143-4cde-abcc-8b3251757064)
 
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request with any bug fixes, new features, or improvements.
-
-## License
-
-[Specify the license for your project]
