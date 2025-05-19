@@ -49,7 +49,7 @@ The data pipeline follows this architecture:
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your_repository_url>
+    git clone https://github.com/Redgerd/stock-data-pipeline-azure-eventhub
     cd stock-data-pipeline-azure-eventhub
     ```
 
